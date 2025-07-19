@@ -98,3 +98,24 @@ body{
 .contact-button:hover{
     background-color:#5254f8
 }
+
+.menu-btn{
+    display: none;
+    border: none;
+    border-radius: 0.375rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: var(--background-color);
+}
+
+@media screen and (max-width:768px){
+    .menu-btn{
+        display: block;
+    }
+}
+
+.menu-icon{
+    height: 1.5rem;
+    width: 1.5rem;
+    /* border: none; */
+}
