@@ -26,7 +26,7 @@ body{
 }
 
 .header-container{
-    max-width: 1180px;
+    max-width: 1280px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -124,11 +124,9 @@ body{
 /* hero section start*/
 
 
-.content{
-    /* max-width: 1280px; */
-}
+
 .main-section{
-    max-width: 1180px;
+    max-width: 1280px;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -226,8 +224,8 @@ body{
 @media  screen and (min-width:768px) {
         .main-section{
             flex-direction: row;
-            padding: 1rem;
-            margin: 0 auto;
+            /* padding: 1rem;
+            margin: 0 auto; */
         }
         .content-left{
             max-width: 50%;
@@ -250,8 +248,11 @@ body{
             padding-left: 0;
         }
         .image-container{
-            height: 80vh;
+         padding: 0;
         }
-
+        .section-img{
+            height: 87vh;
+            margin-right: 0;
+        }
 
 }
