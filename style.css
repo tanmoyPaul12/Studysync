@@ -248,11 +248,10 @@ body{
             padding-left: 0;
         }
         .image-container{
-         padding: 0;
+         height: 87vh;
         }
         .section-img{
-            height: 87vh;
-            margin-right: 0;
+            padding-right: 0;
         }
 
 }
