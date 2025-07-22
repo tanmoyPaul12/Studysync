@@ -247,14 +247,15 @@ body{
             justify-content: start;
             padding-left: 0;
         }
-        .image-container{
-         height: 67vh;
-        }
+         .image-container{
+         height: 87vh;
+         }  
         .section-img{
             padding-right: 0;
         }
 
 }
+
 
 .company-container{
     display: flex;
