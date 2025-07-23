@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="img/favicon-.png" type="image/x-icon">
 </head>
 <body>
-        <div class="header">
+       <div class="header">
                 <header class="header-container">
 
                     <a href="#logo" class="logo">
@@ -16,6 +16,16 @@
                     <span class="logo-text">StudySync</span>
                     </a>
                      
+                    <nav class="sidebar">
+                            <a href="#" >
+                                <a href="#" onclick=hideSideBar() class="nav-link"><img src="img/cross.png" alt="" ></a>
+                                <a href="#home" class="nav-link">Home</a>
+                                <a href="#Features" class="nav-link">Features</a>
+                                <a href="#Pricing" class="nav-link">Pricing</a>
+                                <a href="#Blog" class="nav-link">Blog</a>
+                                <a href="#About" class="nav-link">About</a>
+                            </a>
+                    </nav>
                     <nav class="nav">
                         <a href="#home" class="nav-link">Home</a>
                         <a href="#Features" class="nav-link">Features</a>
@@ -26,7 +36,7 @@
 
                     <a href="#contact" class="contact-button">Contact Us</a>
 
-                    <button type="button" class="menu-btn">
+                    <button onclick=showSideBar() type="button" class="menu-btn">
                         <img src="img/Hamburger.svg" alt="menuicon" class="menu-icon">
                     </button>
 
@@ -179,6 +189,19 @@
             </div>
         </div>
 
+
+
+
         
+        <script>
+            function showSideBar(){
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'flex' 
+            }
+            function hideSideBar(){
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'none'
+            }
+        </script>
 </body>
 </html>
