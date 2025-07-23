@@ -54,6 +54,38 @@ body{
     font-weight: bold;
 }
 
+/* menu for mb */
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    height: 300px;
+    width: 250px;
+    background-color: rgba(245, 245, 245, 0.367);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 1.125rem;
+    font-weight: 600;
+    gap: 1.5rem;
+}
+ .sidebar a{
+    width: 100%;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar .nav-link:hover{
+    color: var(--link-color);
+}
+
+
+
 .nav{
     display: none;
     gap:1.5rem;
@@ -106,7 +138,7 @@ body{
     font-size: 1rem;
     font-weight: 600;
     background-color: var(--background-color);
-     padding: 0.5rem 0.9rem;
+    padding: 0.5rem 0.9rem;
 }
 
 @media screen and (max-width:768px){
