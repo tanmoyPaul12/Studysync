@@ -751,8 +751,10 @@ ul{
     }
 }
 
-@media screen and (max-width:768px) {
-
+@media screen and (max-width:400px) {
+    .footer{
+        padding-right: 4rem;
+    }
     .footer-top{
         padding-right: 4rem;
     }
