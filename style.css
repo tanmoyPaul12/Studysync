@@ -751,16 +751,24 @@ ul{
     }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:490px) {
     .footer{
-        padding-right: 4rem;
+        padding-right: 5rem;
+    }
+    .filler-text{
+        margin: 0 auto;    
+        text-align: center; 
+       padding-left: 3rem;
+    }
+    .social{
+        padding-left: 1.3rem;
     }
     .footer-top{
-        padding-right: 4rem;
+        padding-right: 5rem;
     }
 
     .footer-grid{
-        padding-right: 4rem;
+        padding-right: 5rem;
         grid-template-columns: repeat(2,1fr);
     }
 }
