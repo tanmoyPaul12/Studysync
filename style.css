@@ -742,11 +742,23 @@ ul{
     }
 }
 
-@media screen and (max-width:850px) {
+@media screen and (max-width:768px) {
     .footer-top{
         padding-left: 1rem;
     }
     .footer-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .footer-top{
+        padding-right: 4rem;
+    }
+
+    .footer-grid{
+        padding-right: 4rem;
         grid-template-columns: repeat(2,1fr);
     }
 }
