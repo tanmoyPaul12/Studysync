@@ -756,6 +756,7 @@ ul{
         padding-right: 5rem;
     }
     .filler-text{
+        max-width: 350px;
         margin: 0 auto;    
         text-align: center; 
        padding-left: 3rem;
